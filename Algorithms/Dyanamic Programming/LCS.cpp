@@ -35,3 +35,15 @@ else if(X[i-1]==Y[j-1]){
    return (a>b) ? a:b ;
  }
 
+
+ int main(){
+   char X[]="uuuipp";
+   char Y[]="uuuippoopppp";
+
+   int m = strlen(X);
+   int n=strlen(Y);
+   cout<<"Length of common sequence between X and Y is "<<" ";
+   cout<< lcs(X,Y,m,n);
+
+   return 0;
+}
