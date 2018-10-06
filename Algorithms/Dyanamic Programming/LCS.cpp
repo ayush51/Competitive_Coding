@@ -15,3 +15,12 @@ int i,j;
        L[i][j]=0;// making the first row and first column all elements equal to zero
 
      }
+else if(X[i-1]==Y[j-1]){
+       L[i][j]=L[i-1][j-1]+1;}
+       // if previous diagonal element is equal then add 1 to next diagnoal element
+
+       else {
+         L[i][j]=max(L[i-1][j],L[i][j-1]);}
+         // just copy the upper row value keeping the same column
+
+     }
