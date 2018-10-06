@@ -24,3 +24,14 @@ else if(X[i-1]==Y[j-1]){
          // just copy the upper row value keeping the same column
 
      }
+   }
+
+  return L[m][n];
+  // L[m][n] contains the longest common sequence of the X[0....n],Y[0....m]
+
+ }
+// function to calculate the greater number between the 2 number
+ int max(int a, int b){
+   return (a>b) ? a:b ;
+ }
+
