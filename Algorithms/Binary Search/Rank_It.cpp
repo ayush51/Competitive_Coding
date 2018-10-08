@@ -9,7 +9,7 @@ int binarySearch(int low,int high,int &keyword,int arr[])
 {
 
    while(low<=high)
-   {
+   { //making
 
 int mid=(low+high)/2;
      if(arr[mid]<keyword)
