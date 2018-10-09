@@ -27,7 +27,7 @@ int mid=(low+high)/2;
 
    }
 
-                  //key not found
+                  //key not found so move further
  }
 
 
