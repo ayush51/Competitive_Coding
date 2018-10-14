@@ -20,4 +20,4 @@ cin>>n>>i;
 cout<<step(n,i);
 return 0;
 }
-/end
+/end of
