@@ -39,6 +39,23 @@ void print_poly(int poly[],int n){
 int main(){
     // The following array represents polynomial 5 + 10x^2 + 6x^3
   
+  int A[]={5,0,10,6};
+    // The following array represents polynomial 1 + 2x + 4x^2
+    int B[]={1,2,4};
+    int m=sizeof(A)/sizeof(A[0]);
+    int n=sizeof(B)/sizeof(B[0]);
+    cout<<"first polynomial is "<<endl;
+    print_poly(A,m);
+    cout<<"second  polynomial is "<<endl;
+  print_poly(B,n);
+    int *prod=multiply(A,B,m,n);
+
+    cout<<"Product of the two polynomial is "<<endl;
+    print_poly(prod,m+n-1);
+    
+
+  return 0;
+}
 
 
 
